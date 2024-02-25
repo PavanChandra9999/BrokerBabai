@@ -9,10 +9,17 @@
 <body class="bd">
     <div class="navbar">
         <div class="nav-left">
-            <h1>BrokerAgent</h1>
+            <h1>BrokerBabai</h1>
         </div>
+
+        <form action="/search" method="get">
+            <input type="text" name="q" placeholder="Search...">
+            <button type="submit">Search</button>
+        </form>
+
         <div class="nav-right">
-            <a class="links" href="#">Home</a>
+            <a class="links" href="#home">Home</a>
+            <a class="links" href="#property">Property</a>
             <a class="links" href="#services">Services</a>
             <a class="links" href="#about">About</a>
             <a class="links" href="#contact">Contact</a>
@@ -20,45 +27,78 @@
     </div>
     <section class="home" id="home">
         <div>
-            <img src="./IMAGES/homebg.jpg" class="images">
+            <img src="./IMAGES/image (2).jpg" class="images">
             <div class="text">
-                <h1 style="font-size: 50px; text-align:center;">Unlock the Door to Your Future</h1>
+                <h1 style="font-size: 50px; text-align:center;">"Unlock the Door to Your Future"</h1>
                 <p style="font-size:20px; text-align:center; line-height: 30px; margin-bottom: 50px;">
-                    Embark on your journey to find the perfect place to call home with us.<br>
-                    Let us help you find the key to your dream home.<br>
-                    Discover a new chapter in your life with our selection of homes.<br>
-                    Find your sanctuary in a house that feels like home from the moment you step in.</p>
+                    "Embark on your journey to find the perfect place to call home with us."<br>
+                    "Let us help you find the key to your dream home."<br>
+                    "Discover a new chapter in your life with our selection of homes."<br>
+                    "Find your sanctuary in a house that feels like home from the moment you step in."</p>
             </div>
             
         </div>
     </section>
-    <section class="services" id="services">
+    <section class="property" id="property">
+        <div></div>
+    </section>
+    <section class="services" id="services" >
         <div>
-            <h2>Smooth Registration Process</h2>
-            <p>We offer a hassle-free registration process for our clients. Our experts will guide you through every step.</p>
-            <br>
-            <h2>Smooth Loan Process</h2>
-            <p>Need assistance with securing a loan for your property purchase? Our team will help you navigate the loan process smoothly.</p>
-            <br>
-            <h2>Property Search Assistance</h2>
-            <p>Let us assist you in finding the perfect property that meets your needs and budget. Our comprehensive search services will help you locate your dream home.</p>
-            <br>
-            <h2>Legal Documentation Help</h2>
-            <p>Our experts provide legal documentation assistance to ensure that all your paperwork is in order, making your property transactions stress-free.</p>
-            <br>
-            <h2>Market Analysis</h2>
-            <p>Stay informed about the real estate market trends with our detailed market analysis reports. Make well-informed decisions with our insights.</p>
-        
+            <h2>Services We Offer</h2>
+            <div class="card">
+                <img src="./IMAGES/registration.png" alt="registration">
+                <div class="container">
+                  <h4><b>Smooth Registration Process</b></h4> 
+                  <p>We offer a hassle-free registration process for our clients. Our experts will guide you through every step.</p> 
+                </div>
+            </div>
+            <div class="card">
+                <img src="./IMAGES/loan.png" alt="loan">
+                <div class="container">
+                  <h4><b>Smooth Loan Process</b></h4> 
+                  <p>Need assistance with securing a loan for your property purchase? Our team will help you navigate the loan process smoothly.</p> 
+                </div>
+            </div>
+            <div class="card">
+                <img src="./IMAGES/house.png" alt="property">
+                <div class="container">
+                  <h4><b>Property Search Assistance</b></h4> 
+                  <p>Let us assist you in finding the perfect property that meets your needs and budget. Our comprehensive search services will help you locate your dream home.</p> 
+                </div>
+            </div>
+            <div class="card">
+                <img src="./IMAGES/compliant.png" alt="legal document">
+                <div class="container">
+                  <h4><b>Legal Documentation Help</b></h4> 
+                  <p>Our experts provide legal documentation assistance to ensure that all your paperwork is in order, making your property transactions stress-free.</p> 
+                </div>
+            </div>
+            <div class="card">
+                <img src="./IMAGES/analytics.png" alt="analysis">
+                <div class="container">
+                  <h4><b>Market Analysis</b></h4> 
+                  <p>Stay informed about the real estate market trends with our detailed market analysis reports. Make well-informed decisions with our insights.</p> 
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="about" id="about">
+
+    </section>
+    <section class="contact" id="contact">
+        <div class="contact-info">
+            <h3>Contact Us for more details</h3>
+            <p><b>Phone: <a href="tel:+919999999999">+91 9999999999</a>, <a href="tel:+910123456789">+91 0123456789</a></b></p>
+        </div>
+        <div class="social-media">
+            <a href="https://www.youtube.com/" target="_blank"><img src="./IMAGES/youtube.png" id="YouTube"></a>  
+            <a href="https://www.instagram.com/" target="_blank"><img src="./IMAGES/instagram.png" id="Instagram"></a>
+            <a href="https://www.twitter.com/" target="_blank"><img src="./IMAGES/twitter.png" id="Twitter"></a>  
+            <a href="https://www.linkedin.com/" target="_blank"><img src="./IMAGES/linkedin.png" id="Linkedin"></a>  
+            <a href="https://www.facebook.com/" target="_blank"><img src="./IMAGES/facebook.png" id="Facebook"></a>                                     
         </div>
 
     </section>
-    <div class="about" id="about">
-        
-    </div>
-    
-    <div class="contact" id="contact">
-
-    </div>
-    
+    <script src="script.js"></script>
 </body>
 </html>
